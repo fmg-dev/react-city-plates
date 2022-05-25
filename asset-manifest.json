@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/city-plate/static/css/main.60cacef9.css",
-    "main.js": "/city-plate/static/js/main.5c01619a.js",
-    "index.html": "/city-plate/index.html",
-    "main.60cacef9.css.map": "/city-plate/static/css/main.60cacef9.css.map",
-    "main.5c01619a.js.map": "/city-plate/static/js/main.5c01619a.js.map"
+    "main.css": "/react-city-plates/static/css/main.60cacef9.css",
+    "main.js": "/react-city-plates/static/js/main.5c01619a.js",
+    "index.html": "/react-city-plates/index.html",
+    "main.60cacef9.css.map": "/react-city-plates/static/css/main.60cacef9.css.map",
+    "main.5c01619a.js.map": "/react-city-plates/static/js/main.5c01619a.js.map"
   },
   "entrypoints": [
     "static/css/main.60cacef9.css",
