@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/city-plate/static/css/main.60cacef9.css",
+    "main.js": "/city-plate/static/js/main.5c01619a.js",
+    "index.html": "/city-plate/index.html",
+    "main.60cacef9.css.map": "/city-plate/static/css/main.60cacef9.css.map",
+    "main.5c01619a.js.map": "/city-plate/static/js/main.5c01619a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60cacef9.css",
+    "static/js/main.5c01619a.js"
+  ]
+}
