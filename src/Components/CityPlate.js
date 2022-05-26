@@ -12,7 +12,7 @@ function CityPlate() {
   return (
     <Box className="box">
       <div className="formLabel">
-        <FormLabel key={plates.id} className="formLabel">
+        <FormLabel className="formLabel">
           <h3>City Plate:</h3>
           {newPlate}
         </FormLabel>
