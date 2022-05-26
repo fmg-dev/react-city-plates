@@ -9,14 +9,10 @@ import plates from "../plates";
 function CityPlate() {
   const [newPlate, setNewPlate] = useState();
 
-  function handlePlate(e) {
-    setNewPlate(e.target.value);
-  }
-
   return (
     <Box className="box">
       <div className="formLabel">
-        <FormLabel className="formLabel">
+        <FormLabel key={plates.id} className="formLabel">
           <h3>City Plate:</h3>
           {newPlate}
         </FormLabel>
@@ -27,7 +23,7 @@ function CityPlate() {
           labelId="demo-simple-select-label"
           id="demo-simple-select"
           label="City Plate"
-          onChange={handlePlate}
+          onChange={(e) => setNewPlate(e.target.value)}
         >
           {plates.data.map((plate) => (
             <option key={plate.id} value={plate.il_adi}>
