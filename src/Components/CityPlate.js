@@ -18,13 +18,8 @@ function CityPlate() {
         </FormLabel>
       </div>
       <FormControl className="form">
-        <InputLabel id="demo-simple-select-label">City Plate</InputLabel>
-        <NativeSelect
-          labelId="demo-simple-select-label"
-          id="demo-simple-select"
-          label="City Plate"
-          onChange={(e) => setNewPlate(e.target.value)}
-        >
+        <InputLabel>City Plate</InputLabel>
+        <NativeSelect onChange={(e) => setNewPlate(e.target.value)}>
           {plates.data.map((plate) => (
             <option key={plate.id} value={plate.il_adi}>
               {plate.plaka_kodu}
